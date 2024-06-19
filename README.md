@@ -1,6 +1,6 @@
 ## Library Management
 
-demo
+my first frappe project
 
 #### License
 

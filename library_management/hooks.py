@@ -1,7 +1,7 @@
 app_name = "library_management"
 app_title = "Library Management"
-app_publisher = "Tony"
-app_description = "demo"
+app_publisher = "Tony Varghese"
+app_description = "my first frappe project"
 app_email = "tonyvar666@gmail.com"
 app_license = "mit"
 # required_apps = []

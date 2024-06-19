@@ -1,9 +1,9 @@
 [project]
 name = "library_management"
 authors = [
-    { name = "Tony", email = "tonyvar666@gmail.com"}
+    { name = "Tony Varghese", email = "tonyvar666@gmail.com"}
 ]
-description = "demo"
+description = "my first frappe project"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
