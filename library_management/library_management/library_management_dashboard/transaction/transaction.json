@@ -1,0 +1,25 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "article chart",
+   "width": "Half"
+  },
+  {
+   "chart": "Transaction Chart",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-07-11 14:42:00.023298",
+ "dashboard_name": "transaction",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-07-11 14:45:00.554766",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "transaction",
+ "owner": "Administrator"
+}

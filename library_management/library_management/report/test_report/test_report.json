@@ -1,0 +1,28 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-07-04 10:29:45.605771",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Library Transaction\"],[\"docstatus\",\"Library Transaction\"]],\"order_by\":\"`tabLibrary Transaction`.`modified` desc\",\"page_length\":20,\"column_widths\":{\"name\":120,\"docstatus\":120},\"group_by\":null}",
+ "letterhead": null,
+ "modified": "2024-07-04 13:00:44.081658",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Test Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT *\nFROM `tabLibrary Transaction`",
+ "ref_doctype": "Library Transaction",
+ "report_name": "Test Report",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

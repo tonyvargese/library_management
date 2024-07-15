@@ -1,0 +1,44 @@
+{
+ "allow_roles": [
+  {
+   "role": "Librarian"
+  },
+  {
+   "role": "Administrator"
+  }
+ ],
+ "creation": "2024-07-11 12:40:35.562004",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "https://www.linkedin.com/in/tonyvarghese666/",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2024-07-11 12:47:31.561407",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Introduction to Library Management",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "Custom Doctype"
+  },
+  {
+   "step": "Custom Field"
+  },
+  {
+   "step": "Naming Series"
+  },
+  {
+   "step": "Report Builder"
+  },
+  {
+   "step": "Print Format"
+  },
+  {
+   "step": "Role Permissions"
+  }
+ ],
+ "subtitle": "streamlining Acess and Effeciency in Modern Libraries",
+ "success_message": "Congratulations You are a gay",
+ "title": "Library Management"
+}

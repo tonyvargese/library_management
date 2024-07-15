@@ -227,3 +227,18 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# after_migrate= "library_management.www.text.after_migrate"
+
+doc_events={
+    "User": {
+        "after_insert":"library_management.www.text.after_insert"
+        }
+}
+
+doc_events = {
+    "Library Member": {
+        "before_insert": "library_management.www.testhook.before_insert"
+    },
+}
+
+
