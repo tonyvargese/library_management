@@ -241,4 +241,9 @@ doc_events = {
     },
 }
 
-
+fixtures=[
+    {
+        'dt' : 'Role',
+        'filters':[['name','in',['Librarian','Librarian1','Library Member','Library Mem']] ]
+    }
+]
