@@ -241,7 +241,7 @@ doc_events = {
     },
 }
 
-fixtures=[
+fixtures=[                                                      #bench export-fixtures
     {
         'dt' : 'Role',
         'filters':[['name','in',['Librarian','Librarian1','Library Member','Library Mem']] ]
@@ -260,4 +260,8 @@ fixtures=[
     }
     
     
+]
+
+fixtures=[
+    "Custom Field"
 ]
