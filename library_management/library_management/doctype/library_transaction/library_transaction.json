@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "LT.####",
- "creation": "2024-06-24 16:48:21.519128",
+ "creation": "2024-07-23 11:18:51.417535",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -13,12 +13,19 @@
   "date",
   "amended_from",
   "book_condition",
-  "fine_amount"
+  "fine_amount",
+  "amended_from"
  ],
  "fields": [
   {
    "fieldname": "section_break_nrq1",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "articles",
+   "fieldtype": "Table",
+   "label": "Add Article",
+   "options": "Add Article"
   },
   {
    "fieldname": "library_member",
@@ -48,10 +55,11 @@
    "search_index": 1
   },
   {
-   "fieldname": "articles",
-   "fieldtype": "Table",
-   "label": "Add Article",
-   "options": "Add Article"
+   "depends_on": "eval:doc.type==\"Return\"",
+   "fieldname": "book_condition",
+   "fieldtype": "Select",
+   "label": "Book Condition",
+   "options": "Damaged\nLost"
   },
   {
    "fieldname": "fine_amount",
@@ -59,17 +67,20 @@
    "label": "Fine Amount"
   },
   {
-   "depends_on": "eval:doc.type==\"Return\"",
-   "fieldname": "book_condition",
-   "fieldtype": "Select",
-   "label": "Book Condition",
-   "options": "Damaged\nLost"
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Library Transaction",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-06-26 17:11:31.534508",
+ "modified": "2024-07-23 11:18:51.417535",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Transaction",

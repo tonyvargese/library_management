@@ -3,7 +3,7 @@
  "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "field:article_name",
- "creation": "2024-06-24 10:08:56.168929",
+ "creation": "2024-07-23 10:56:43.872461",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -36,6 +36,11 @@
    "unique": 1
   },
   {
+   "fieldname": "isbn",
+   "fieldtype": "Data",
+   "label": "ISBN"
+  },
+  {
    "fieldname": "image",
    "fieldtype": "Attach Image",
    "hidden": 1,
@@ -51,14 +56,8 @@
    "mandatory_depends_on": "article_name"
   },
   {
-   "fieldname": "description",
-   "fieldtype": "Text Editor",
-   "label": "Description"
-  },
-  {
-   "fieldname": "isbn",
-   "fieldtype": "Data",
-   "label": "ISBN"
+   "fieldname": "column_break_x4xj",
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "status",
@@ -72,12 +71,18 @@
    "label": "Publisher"
   },
   {
-   "fieldname": "column_break_x4xj",
-   "fieldtype": "Column Break"
+   "fieldname": "price",
+   "fieldtype": "Int",
+   "label": "price"
   },
   {
    "fieldname": "section_break_nmja",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
   },
   {
    "fieldname": "route",
@@ -89,11 +94,6 @@
    "fieldname": "published",
    "fieldtype": "Check",
    "label": "Published"
-  },
-  {
-   "fieldname": "price",
-   "fieldtype": "Int",
-   "label": "price"
   }
  ],
  "has_web_view": 1,
@@ -101,7 +101,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2024-07-04 15:04:23.706654",
+ "modified": "2024-07-23 10:56:43.872461",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",

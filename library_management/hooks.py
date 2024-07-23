@@ -265,3 +265,15 @@ fixtures=[                                                      #bench export-fi
 fixtures=[
     "Custom Field"
 ]
+
+override_doctype_class = {
+    "ToDo": "library_management.overrides.todo.CustomToDo"
+}
+
+scheduler_events = {
+    "daily": [
+        
+        "library_management.scheduler.scheduled_tasks.send_overdue_notifications"
+    ],
+}
+

@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "LS.####",
- "creation": "2024-06-24 17:21:20.896408",
+ "creation": "2024-07-23 11:18:26.035879",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -30,6 +30,11 @@
    "label": "Maximum Number of Issued Articles"
   },
   {
+   "fieldname": "fine_day",
+   "fieldtype": "Int",
+   "label": "Fine day"
+  },
+  {
    "fieldname": "damage_fine",
    "fieldtype": "Int",
    "label": "Damage Fine"
@@ -40,11 +45,6 @@
    "label": "Lost Fine"
   },
   {
-   "fieldname": "fine_day",
-   "fieldtype": "Int",
-   "label": "Fine day"
-  },
-  {
    "fieldname": "borrow_period",
    "fieldtype": "Int",
    "label": "borrow period"
@@ -52,7 +52,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-01 10:15:23.553443",
+ "modified": "2024-07-23 11:18:26.035879",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Settings",

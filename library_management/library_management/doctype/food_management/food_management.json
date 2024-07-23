@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "FM.####",
- "creation": "2024-07-02 09:42:02.076232",
+ "creation": "2024-07-23 11:18:25.110661",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -26,6 +26,16 @@
    "label": "Year"
   },
   {
+   "fieldname": "normal_rate",
+   "fieldtype": "Currency",
+   "label": "Food Normal Rate"
+  },
+  {
+   "fieldname": "special_rate",
+   "fieldtype": "Int",
+   "label": "Food Special Rate"
+  },
+  {
    "fieldname": "daily_food_count_detail",
    "fieldtype": "Table",
    "label": "Daily Food Count Detail",
@@ -40,21 +50,11 @@
    "fieldname": "total_amount",
    "fieldtype": "Int",
    "label": "Total amount"
-  },
-  {
-   "fieldname": "normal_rate",
-   "fieldtype": "Currency",
-   "label": "Food Normal Rate"
-  },
-  {
-   "fieldname": "special_rate",
-   "fieldtype": "Int",
-   "label": "Food Special Rate"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-03 11:38:18.968187",
+ "modified": "2024-07-23 11:18:25.110661",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Food Management",

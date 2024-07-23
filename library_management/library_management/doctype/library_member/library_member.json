@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:first_name",
- "creation": "2024-06-24 11:40:47.309123",
+ "creation": "2024-07-23 11:18:25.679080",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -63,7 +63,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-03 16:48:24.664487",
+ "modified": "2024-07-23 11:18:25.679080",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",
